@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menusection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 30px;
+}
+.menuoption ul{
+    list-style-type: none;
+    display: flex;
+}
+.menuoption ul li{
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+.bannersection{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 75px 100px 50px;
+    background-image: url("../Images/weatherbanner001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .sentence{
+    padding-top: 200px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 30px;
+} */
+ .firsttodaycarts{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.partone{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.measurements{
+    display: flex;
+    align-items: center;
+}
+.twomeasure{
+    display: flex;
+    padding-bottom: 10px;  
+}
+.twomeasure1{
+    display: flex;  
+}
+.totalmeasure{
+    text-align: center;
+    padding-right: 50px;               
+}
+
+/* style={{color: 'white', fontSize: 30,paddingBottom: 20}} */
+.fullmeasure{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+.carddetails{
+    text-align: center;
+    padding-top: 20px;
+}
+.cart{
+    padding: 30px 30px 30px 30px;
+    background-image: linear-gradient(to bottom right, rgb(133, 135, 250), rgb(91, 75, 241));
+    border-radius: 30px;                
+}
+.parttwo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.daily{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.dailyflex{
+    display: flex;
+    justify-content: space-around;
+}
+.dailycart{
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    max-width: 200px;
+    text-align: center;
+}
+.dailycarts{
+    padding-right: 30px;
+}
+.flexpart{
+    display: flex;
+    align-items: center;
+}
+.weeklycarts{
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    max-width: 200px;
+    text-align: center;
+}
+.news{
+    padding: 50px 100px 50px 100px;
+    background-color: rgb(244, 244, 244);
+}
+.fullnews{
+    padding-top: 100px;
+}
+.newscart{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    max-width: 320px;
+    border: 2px solid rgb(214, 214, 214);
+}
+.newscartfull{
+    padding-top: 50px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.subscripenews{
+    background-image: url("../Images/subscripe001.jpg");
+    background-repeat: none;
+    background-size: cover;
+    padding: 250px 200px 250px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emailcart{
+    padding: 50px 20px 50px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+.fullfooter{
+    padding: 150px 100px 80px 100px;
+    background-color: black;
+}
+.footer {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text content (optional for menu) */
+}
+
+.linksf {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.menuoption1 ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+.menuoption1 ul li {
+    padding-right: 50px; /* Space between menu items */
+}
+
+.menuoption1 ul li:last-child {
+    padding-right: 0; /* No padding after the last item */
+}
+.copyright{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.copyflex{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialmedia ul {
+    display: flex;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+.fa {  
+    padding: 10px;  
+    text-align: center;  
+    border-radius: 50%;  
+    font-size: 20px;  
+    width: 20px;  
+}  
+.fa-facebook {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-instagram {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-linkedin {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-twitter {  
+    border: 1px solid white;
+    color: white;
+}
+.imageswipe{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.gallarycart{
+    text-align: center;
+}
+.gallerysection{
+    padding-top: 50px;
+    padding-bottom: 125px;
+}
+.toadynavbar{
+    display:flex;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.fulldaily{
+    display: flex;
+}
+.todaynavbarclick{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 20px 20px 20px;
+}
+.todaynavbarclick:hover{
+    border-bottom: 5px solid rgba(64,45,134,255);
+}
+.temparature{
+    display: flex;
+    /* align-items: center; */
+    padding: 0px 50px 0px 0px;
+}
+.paddingtemparature{
+    padding-bottom: 50px;
+}
+.mapcontent{
+    padding-right: 20px;
+}
+.allmaps{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* padding: 100px 100px 150px 100px; */
+    padding:100px 100px 100px 100px;
+}
+.mapsfull{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonserach{
+    padding-left: 10px;
+}
+.buttonserach button{
+    padding: 18px 18px;
+    border-radius: 30px;
+    background-color: rgb(250, 238, 197);
+}
+/* style={{padding:'18px 18px',borderRadius:30,backgroundColor:'rgb(250, 238, 197)'}} */
+.locationsearch{
+    display: flex;
+    align-items: center;
+}
+.paddingcarts{
+    padding: 10px 10px 10px 10px;
+}
+.fullflexcart{
+    display: flex;
+    /* justify-content: ; */
+}
+@media (max-width: 768px) {
+    .partone{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bannersection{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 20px 100px 20px;
+        background-image: url("../Images/weatherbanner001.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* .weathercontent{
+        width: 360px;
+    } */
+    .locationsearch{
+        display: flex;
+        flex-direction: column;
+    }
+    .locationsearch .buttonserach{
+        padding-top: 10px;
+    }
+    .buttonserach button{
+        padding: 10px;
+        min-width: 19rem;
+    }
+    .buttonserach{
+        padding-bottom: 20px;
+    }
+    .newdata{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .totalmeasure{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .totalpaddingpart{
+        padding-bottom: 30px;
+    }
+
+    .firstcartnew{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .daily{
+        padding: 10px;
+     }
+     .news{
+        padding: 30px 10px 30px 10px;
+     }
+     .newscart{
+        padding-bottom: 10px;
+     }
+     .allmaps{
+        padding: 30px 15px 10px 30px ;
+     }
+     .temparature{
+        display: flex;
+        flex-direction: column;
+     }
+     .paddingtemparature{
+        padding-top: 30px;
+     }
+     .temparature img{
+        width: 300;
+     }
+     .toadynavbar{
+        display:flex;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.subscripenews {
+    background-image: url("../Images/subscripe001.jpg");
+    background-repeat: no-repeat; /* Changed to no-repeat (it was 'none', which is not valid) */
+    background-size: cover;
+    padding: 50px 20px; /* Reduced padding for better responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; /* Optional: add a gap between items */
+    width: 100%; /* Ensure the container uses full width */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.emailcart {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    max-width: 100%; /* Allow the form to take the full width if necessary */
+}
+
+.fullfooter{
+    padding: 150px 100px 80px 100px;
+    background-color: black;
+}
+.footer {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text content (optional for menu) */
+}
+
+.linksf {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+.menuoption1 ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+.menuoption1 ul li {
+    padding-right: 50px; /* Space between menu items */
+}
+
+.menuoption1 ul li:last-child {
+    padding-right: 0; /* No padding after the last item */
+}
+.copyright{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.copyflex{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialmedia ul {
+    display: flex;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+.fa {  
+    padding: 10px;  
+    text-align: center;  
+    border-radius: 50%;  
+    font-size: 20px;  
+    width: 20px;  
+}  
+.fa-facebook {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-instagram {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-linkedin {  
+    border: 1px solid white;
+    color: white;
+}  
+.fa-twitter {  
+    border: 1px solid white;
+    color: white;
+}
+.imageswipe{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.gallarycart{
+    text-align: center;
+}
+.gallerysection{
+    padding-top: 50px;
+    padding-bottom: 125px;
+}
+
+@media (max-width: 768px) {
+    .subscripenews {
+        background-image: url("../Images/subscripe001.jpg");
+        background-repeat: no-repeat; /* Changed to no-repeat (it was 'none', which is not valid) */
+        background-size: cover;
+        padding: 50px 20px; /* Reduced padding for better responsiveness */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px; /* Optional: add a gap between items */
+        width: 100%; /* Ensure the container uses full width */
+        box-sizing: border-box; /* Ensure padding is included in the width */
+    }
+    .subscripenews p b{
+        font-size: 35px;
+    }
+    
+    .subscripenews p {
+        text-align: right;
+        padding-bottom: 50px;
+    }
+
+    .emailcart {
+        padding: 50px 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        max-width: 100%; /* Allow the form to take the full width if necessary */
+    }
+    .copyright{
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fullfooter{
+        padding: 150px 10px 80px 10px;
+    }
+    
+}

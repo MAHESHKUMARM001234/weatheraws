@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .Topfirst{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+} */
+
+.cartingnews{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 200px;
+}
+
+.fullcartnews{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 50px 200px; */
+}
+.weathercart{
+    padding: 10px;
+    border: 0.5px solid rgb(155, 155, 155);
+    border-radius: 20px;
+}
+
+.weathercart img{
+    border-radius: 10px;
+}
+.paddingcart{
+    /* padding: 20px 20px 20px 20px; */
+    padding: 0px 20px 20px 0px ;
+}
+/* News.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .pagination ul {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination li.active a {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .pagination li a {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    font-size: 20px;
+  }
+  
+  .pagination li a:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+
+  /* @media (max-width: 768px) {
+    .Topfirst{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 100px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 100px;
+    }
+    .cartingnews{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 50px 10px;
+    }
+  
+  } */
+  
+
+  .Topfirst {
+    display: flex;
+    justify-content: space-between; /* Space between content and image */
+    align-items: center;
+    padding: 100px;
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    gap: 20px; /* Adds space between content and image */
+    box-sizing: border-box;
+}
+
+.firstsection {
+    max-width: 55%; /* Slightly reduce width to allow more space for the image */
+}
+
+.image-container {
+    max-width: 40%; /* Allocate more space for the image */
+}
+
+.weather-image {
+    width: 450px; /* Make sure the image takes the full width of its container */
+    height: 350px;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .Topfirst {
+        padding: 50px 20px;
+    }
+
+    .firstsection {
+        max-width: 50%;
+    }
+
+    .image-container {
+        max-width: 45%;
+    }
+
+    .firstsection p {
+        font-size: 24px;
+    }
+
+    .weather-image {
+        max-width: 100%;
+        max-height: 500px; /* Ensure the image doesn’t become too tall */
+    }
+}
+
+@media (max-width: 768px) {
+    .Topfirst {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    .firstsection, .image-container {
+        max-width: 100%; /* Allow full width for content and image */
+    }
+
+    .firstsection p {
+        font-size: 24px; /* Adjust font size for readability on small screens */
+    }
+
+    .weather-image {
+        max-width: 100%;
+        max-height: 350px; /* Adjust max height for smaller screens */
+    }
+    .cartingnews{
+      display: flex;
+      flex-wrap: wrap;
+      
+      padding: 50px 30px;
+    }
+    .fullcartnews{
+      display: flex;
+      flex-wrap: wrap;
+      /* padding: 50px 200px; */
+      /* text-align: center; */
+      /* align-content: flex-end; */
+      margin: auto;
+      width: 80%;
+    }
+    .pagination li a{
+      font-size: 10px;
+    }
+}
