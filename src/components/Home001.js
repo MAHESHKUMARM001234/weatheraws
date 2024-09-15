@@ -81,7 +81,7 @@ const Home001 = () => {
                 <div className="bannersection">
                     <div className="sentence">
                         <p style={{ color: 'white', fontSize: 60 }}>
-                            <b>The Weather Forecast</b>
+                            <b>The Weathers Forecast</b>
                         </p>
                         <p
                             style={{
